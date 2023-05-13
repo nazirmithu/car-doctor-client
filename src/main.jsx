@@ -4,8 +4,9 @@ import './index.css'
 import {
   RouterProvider,
 } from "react-router-dom";
-import router from './Routes/Roures.jsx';
+
 import AuthProvider from './providers/AuthProvider';
+import router from './Routes/Routes';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <div className='max-w-7xl mx-auto'>
